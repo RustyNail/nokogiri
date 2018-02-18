@@ -28,8 +28,8 @@ matrix:
 #      - RUBYOPT="--enable-frozen-string-literal --debug=frozen-string-literal"
   - os: osx
     rvm: 2.4.0
-    env:
-      - RUBYOPT="--enable-frozen-string-literal --debug=frozen-string-literal"
+#    env:
+#      - RUBYOPT="--enable-frozen-string-literal --debug=frozen-string-literal"
   - os: linux
     rvm: ruby-head
     env:
