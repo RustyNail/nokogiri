@@ -48,6 +48,9 @@ matrix:
   - rvm: ruby-head
   fast_finish: true
 
+before_install: 
+  - gem update --system
+
 notifications:
   irc:
     channels:
