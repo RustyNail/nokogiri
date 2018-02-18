@@ -23,7 +23,7 @@ matrix:
   - os: osx
     rvm: 2.3.1
   - os: linux
-    rvm: 2.4.0
+    rvm: 2.3.1
     env:
       - RUBYOPT="--enable-frozen-string-literal --debug=frozen-string-literal"
   - os: osx
